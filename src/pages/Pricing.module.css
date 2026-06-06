@@ -1,0 +1,20 @@
+.page{animation:fadeUp 0.4s ease;max-width:900px}
+.header{margin-bottom:36px;text-align:center}
+.tag{font-family:var(--fmono);font-size:11px;letter-spacing:2px;color:var(--accent2);margin-bottom:8px}
+.title{font-family:var(--fhead);font-size:42px;letter-spacing:1px;margin-bottom:8px}
+.sub{font-size:15px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}
+.card{background:var(--bg2);border:1px solid var(--border);border-radius:18px;padding:28px;position:relative;transition:all 0.2s}
+.card:hover{transform:translateY(-4px)}
+.popular{border-color:rgba(168,85,247,0.4);box-shadow:0 0 32px rgba(168,85,247,0.12)}
+.badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:linear-gradient(90deg,var(--accent),var(--accent2));color:white;font-size:11px;font-weight:700;padding:4px 14px;border-radius:999px;white-space:nowrap}
+.planName{font-family:var(--fhead);font-size:22px;letter-spacing:1px;margin-bottom:8px}
+.planPrice{font-family:var(--fhead);font-size:44px;margin-bottom:4px}
+.planPrice span{font-family:var(--fbody);font-size:14px;color:var(--muted)}
+.planVid{font-size:13px;font-weight:600;margin-bottom:20px}
+.features{display:flex;flex-direction:column;gap:9px;margin-bottom:24px}
+.feat{font-size:13px;color:var(--muted)}
+.btn{width:100%;padding:13px;border-radius:10px;border:1px solid;font-size:14px;font-weight:600;transition:all 0.2s;background:transparent}
+.btn:hover{transform:translateY(-1px)}
+.note{text-align:center;font-size:13px;color:var(--muted);padding:16px;background:var(--bg2);border:1px solid var(--border);border-radius:12px}
+@media(max-width:768px){.grid{grid-template-columns:1fr}}

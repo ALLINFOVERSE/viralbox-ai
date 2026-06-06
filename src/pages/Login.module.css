@@ -1,0 +1,49 @@
+.page {
+  min-height:100vh; display:flex;
+  align-items:center; justify-content:center;
+  padding:24px;
+  background:radial-gradient(ellipse at center, rgba(124,58,237,0.08) 0%, transparent 70%);
+}
+.card {
+  background:var(--bg2); border:1px solid var(--border2);
+  border-radius:20px; padding:40px;
+  width:100%; max-width:420px;
+  animation:fadeUp 0.4s ease;
+}
+.logo {
+  display:flex; align-items:center; gap:10px;
+  font-family:var(--fhead); font-size:22px; letter-spacing:1px;
+  margin-bottom:28px; justify-content:center;
+}
+.mark {
+  width:34px; height:34px;
+  background:linear-gradient(135deg,#7c3aed,#a855f7);
+  border-radius:9px; display:flex; align-items:center;
+  justify-content:center; font-size:18px; color:white;
+}
+.logo span span { color:var(--accent2); }
+
+.title  { font-family:var(--fhead); font-size:28px; letter-spacing:1px; margin-bottom:6px; text-align:center; }
+.sub    { font-size:13px; color:var(--muted); text-align:center; margin-bottom:24px; }
+.error  {
+  background:rgba(239,68,68,0.1); border:1px solid rgba(239,68,68,0.25);
+  border-radius:9px; padding:10px 14px;
+  font-size:13px; color:#fca5a5; margin-bottom:16px; text-align:center;
+}
+.fields { display:flex; flex-direction:column; gap:10px; margin-bottom:16px; }
+.btn {
+  width:100%; padding:14px;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  border:none; border-radius:12px;
+  color:white; font-size:15px; font-weight:600;
+  transition:all 0.2s; margin-bottom:16px;
+}
+.btn:hover { transform:translateY(-2px); box-shadow:0 8px 24px rgba(124,58,237,0.4); }
+
+.toggle { font-size:13px; color:var(--muted); text-align:center; margin-bottom:12px; }
+.toggle button {
+  background:none; border:none;
+  color:var(--accent2); font-size:13px;
+  text-decoration:underline; cursor:pointer;
+}
+.note { font-size:11px; color:var(--muted); text-align:center; }
